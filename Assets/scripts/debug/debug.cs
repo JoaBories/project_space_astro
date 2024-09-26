@@ -18,7 +18,7 @@ public class debug : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        playervectortext.GetComponent<TextMeshProUGUI>().text = Player.GetComponent<Rigidbody2D>().velocity.ToString();
-        playerrotationtext.GetComponent<TextMeshProUGUI>().text = Player.transform.rotation.ToString();
+        playervectortext.GetComponent<TextMeshProUGUI>().text = Player.GetComponent<Rigidbody2D>().velocity.magnitude.ToString();
+        playerrotationtext.GetComponent<TextMeshProUGUI>().text = Player.transform.eulerAngles.z.ToString();
     }
 }

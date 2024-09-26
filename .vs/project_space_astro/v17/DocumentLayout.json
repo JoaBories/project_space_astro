@@ -3,7 +3,27 @@
   "WorkspaceRootPath": "C:\\Users\\joa.bories\\Documents\\github\\project_space_astro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2783DE0F-9B21-6C6E-03FD-645345D7614F}|Assembly-CSharp.csproj|c:\\users\\joa.bories\\documents\\github\\project_space_astro\\assets\\scripts\\character\\velocitindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2783DE0F-9B21-6C6E-03FD-645345D7614F}|Assembly-CSharp.csproj|C:\\Users\\joa.bories\\Documents\\github\\project_space_astro\\assets\\scripts\\character\\gravity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2783DE0F-9B21-6C6E-03FD-645345D7614F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\gravity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2783DE0F-9B21-6C6E-03FD-645345D7614F}|Assembly-CSharp.csproj|c:\\users\\joa.bories\\documents\\github\\project_space_astro\\assets\\scripts\\planet\\mass info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2783DE0F-9B21-6C6E-03FD-645345D7614F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\planet\\mass info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2783DE0F-9B21-6C6E-03FD-645345D7614F}|Assembly-CSharp.csproj|C:\\Users\\joa.bories\\Documents\\github\\project_space_astro\\assets\\scripts\\camera\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2783DE0F-9B21-6C6E-03FD-645345D7614F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\camera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2783DE0F-9B21-6C6E-03FD-645345D7614F}|Assembly-CSharp.csproj|c:\\users\\joa.bories\\documents\\github\\project_space_astro\\assets\\scripts\\character\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2783DE0F-9B21-6C6E-03FD-645345D7614F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2783DE0F-9B21-6C6E-03FD-645345D7614F}|Assembly-CSharp.csproj|C:\\Users\\joa.bories\\Documents\\github\\project_space_astro\\assets\\scripts\\debug\\debug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2783DE0F-9B21-6C6E-03FD-645345D7614F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\debug\\debug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2783DE0F-9B21-6C6E-03FD-645345D7614F}|Assembly-CSharp.csproj|C:\\Users\\joa.bories\\Documents\\github\\project_space_astro\\assets\\scripts\\character\\velocitindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2783DE0F-9B21-6C6E-03FD-645345D7614F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\velocitindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,20 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "mass info.cs",
+              "DocumentMoniker": "C:\\Users\\joa.bories\\Documents\\github\\project_space_astro\\Assets\\scripts\\planet\\mass info.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\planet\\mass info.cs",
+              "ToolTip": "C:\\Users\\joa.bories\\Documents\\github\\project_space_astro\\Assets\\scripts\\planet\\mass info.cs",
+              "RelativeToolTip": "Assets\\scripts\\planet\\mass info.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T15:57:22.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "gravity.cs",
+              "DocumentMoniker": "C:\\Users\\joa.bories\\Documents\\github\\project_space_astro\\Assets\\scripts\\character\\gravity.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\character\\gravity.cs",
+              "ToolTip": "C:\\Users\\joa.bories\\Documents\\github\\project_space_astro\\Assets\\scripts\\character\\gravity.cs",
+              "RelativeToolTip": "Assets\\scripts\\character\\gravity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T14:54:49.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "camera.cs",
+              "DocumentMoniker": "C:\\Users\\joa.bories\\Documents\\github\\project_space_astro\\Assets\\scripts\\camera\\camera.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\camera\\camera.cs",
+              "ToolTip": "C:\\Users\\joa.bories\\Documents\\github\\project_space_astro\\Assets\\scripts\\camera\\camera.cs",
+              "RelativeToolTip": "Assets\\scripts\\camera\\camera.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T14:35:15.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "debug.cs",
+              "DocumentMoniker": "C:\\Users\\joa.bories\\Documents\\github\\project_space_astro\\Assets\\scripts\\debug\\debug.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\debug\\debug.cs",
+              "ToolTip": "C:\\Users\\joa.bories\\Documents\\github\\project_space_astro\\Assets\\scripts\\debug\\debug.cs",
+              "RelativeToolTip": "Assets\\scripts\\debug\\debug.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T14:25:42.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\joa.bories\\Documents\\github\\project_space_astro\\Assets\\scripts\\character\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\character\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\joa.bories\\Documents\\github\\project_space_astro\\Assets\\scripts\\character\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\scripts\\character\\PlayerController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T14:06:37.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "VelocitIndicator.cs",
               "DocumentMoniker": "C:\\Users\\joa.bories\\Documents\\github\\project_space_astro\\Assets\\scripts\\character\\VelocitIndicator.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\character\\VelocitIndicator.cs",
               "ToolTip": "C:\\Users\\joa.bories\\Documents\\github\\project_space_astro\\Assets\\scripts\\character\\VelocitIndicator.cs",
               "RelativeToolTip": "Assets\\scripts\\character\\VelocitIndicator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T09:40:35.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-26T09:40:35.907Z"
             }
           ]
         }

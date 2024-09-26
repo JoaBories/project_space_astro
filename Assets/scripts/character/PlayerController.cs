@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     float rotation;
     public float RotationSpeed;
     Vector2 Velocity;
-    Vector2 PushVector = new Vector2 (0,1);
+    public Vector2 PushVector = new Vector2 (0,1);
     // Start is called before the first frame update
     void Start()
     {
