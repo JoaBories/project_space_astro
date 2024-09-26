@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\joa.bories\\Documents\\github\\project_space_astro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2783DE0F-9B21-6C6E-03FD-645345D7614F}|Assembly-CSharp.csproj|c:\\users\\joa.bories\\documents\\github\\project_space_astro\\assets\\scripts\\character\\velocitindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2783DE0F-9B21-6C6E-03FD-645345D7614F}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character\\velocitindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "VelocitIndicator.cs",
+              "DocumentMoniker": "C:\\Users\\joa.bories\\Documents\\github\\project_space_astro\\Assets\\scripts\\character\\VelocitIndicator.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\character\\VelocitIndicator.cs",
+              "ToolTip": "C:\\Users\\joa.bories\\Documents\\github\\project_space_astro\\Assets\\scripts\\character\\VelocitIndicator.cs",
+              "RelativeToolTip": "Assets\\scripts\\character\\VelocitIndicator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T09:40:35.907Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
