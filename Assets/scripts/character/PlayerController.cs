@@ -5,10 +5,12 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    float rotation;
+    public Vector2 basePushVector = new Vector2 (0,1);
     public float RotationSpeed;
-    Vector2 Velocity;
-    public Vector2 PushVector = new Vector2 (0,1);
+
+    int enginePower = 0;
+    bool engineState = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,16 +21,12 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Rigidbody2D RB2d = GetComponent<Rigidbody2D>();
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            rotation = RB2d.rotation;
-            Velocity = RB2d.velocity;
-            float rotationAngle = transform.eulerAngles.z * Mathf.Deg2Rad;
-            float x = PushVector.x;
-            float y = PushVector.y;
-            float xrotated = (float)(x * Math.Cos(rotationAngle) - y * Math.Sin(rotationAngle));
-            float yrotated = (float)(x * Math.Sin(rotationAngle) + y * Math.Cos(rotationAngle));
-            RB2d.velocity = Velocity + (new Vector2(xrotated, yrotated) * Time.deltaTime);
+            if (engineState)
+            {
+                engineState = false;
+            }
         }
         if (Input.GetKey(KeyCode.A))
         {
@@ -38,7 +36,12 @@ public class PlayerController : MonoBehaviour
         {
             RB2d.rotation -= RotationSpeed*Time.deltaTime;
         }
-            updatepos(RB2d);
+    }
+
+    private void FixedUpdate()
+    {
+        Rigidbody2D RB2d = GetComponent<Rigidbody2D>();
+        updatepos(RB2d);
     }
 
     void updatepos(Rigidbody2D RB2d)
@@ -46,5 +49,17 @@ public class PlayerController : MonoBehaviour
         transform.position = transform.position + (new Vector3 (RB2d.velocity.x, RB2d.velocity.y, 0))*Time.deltaTime;
         Quaternion targetRotation = Quaternion.Euler(0, 0, RB2d.rotation);
         transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, RotationSpeed * Time.deltaTime);
+    }
+
+    void updatevel(Rigidbody2D RB2d)
+    {
+        rotation = RB2d.rotation;
+        Velocity = RB2d.velocity;
+        float rotationAngle = transform.eulerAngles.z * Mathf.Deg2Rad;
+        float x = basePushVector.x;
+        float y = basePushVector.y;
+        float xrotated = (float)(x * Math.Cos(rotationAngle) - y * Math.Sin(rotationAngle));
+        float yrotated = (float)(x * Math.Sin(rotationAngle) + y * Math.Cos(rotationAngle));
+        RB2d.velocity = Velocity + (new Vector2(xrotated, yrotated) * Time.deltaTime);
     }
 }

@@ -36,9 +36,10 @@ public class AttractionManager : MonoBehaviour
             foreach (GameObject gravity in gravityList)
             {
                 float mass = gravity.gameObject.GetComponent<MassInfo>().mass;
+                float distanceSurface = gravity.transform.parent.localScale.x / 2;
                 Vector2 distance = new Vector2(transform.position.x - gravity.transform.position.x, transform.position.y - gravity.transform.position.y);
-                float GF = attractionForce * mass / distance.magnitude;
-                velocity -= distance * GF * Time.fixedDeltaTime;
+                float GF = attractionForce * mass / Mathf.Max(0.1f, distance.magnitude - distanceSurface);
+                velocity -= distance.normalized * GF * Time.fixedDeltaTime;
             }
         }
     }
@@ -49,7 +50,6 @@ public class AttractionManager : MonoBehaviour
         {
             isInGravity = true;
             gravityList.Add(collision.gameObject);
-            Debug.Log("entrée");
         }
     }
 
