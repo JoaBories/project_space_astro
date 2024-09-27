@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class massinfo : MonoBehaviour
+public class MassInfo : MonoBehaviour
 {
     public float mass;
 }

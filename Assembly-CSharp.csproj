@@ -61,11 +61,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\scripts\character\VelocitIndicator.cs" />
+    <Compile Include="Assets\scripts\character\SpaceGravity.cs" />
     <Compile Include="Assets\scripts\character\PlayerController.cs" />
-    <Compile Include="Assets\scripts\planet\mass info.cs" />
-    <Compile Include="Assets\scripts\camera\camera.cs" />
+    <Compile Include="Assets\scripts\character\AttractionManager.cs" />
+    <Compile Include="Assets\scripts\planet\MassInfo.cs" />
+    <Compile Include="Assets\scripts\camera\CameraManager.cs" />
     <Compile Include="Assets\scripts\debug\debug.cs" />
-    <Compile Include="Assets\scripts\character\gravity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
